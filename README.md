@@ -10,13 +10,13 @@ Currently in very early release and trying to flesh out the proper requirements 
 ### Installation (Soon)
 
 ```
-npm install jackabox/recipe-scraper
+npm install @jackabox/node-recipe-scraper
 ```
 
 or
 
 ```
-yarn add jackabox/recipe-scraper
+yarn add @jackabox/node-recipe-scraper
 ```
 
 ### Supported Sites
