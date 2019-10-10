@@ -27,7 +27,7 @@ yarn add jackabox/recipe-scraper
 
 Want to request more? Please open an issue or pull request.
 
-### Demo
+### Demo
 
 Take a look at the demo.js file for use within a _very_ basic express application.
 
