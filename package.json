@@ -1,5 +1,5 @@
 {
-  "name": "recipe-scraper",
+  "name": "@jackabox/node-recipe-scraper",
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
