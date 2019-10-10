@@ -1,9 +1,5 @@
 const express = require('express')
-const morgan = require('morgan')
-const dotenv = require('dotenv')
-const importer = require('./index.js')
-
-dotenv.config({ path: './.env' })
+const importer = require('../index.js')
 
 const app = express()
 
@@ -14,6 +10,4 @@ app.get('/v1/scraper', async (req, res) => {
   return res.json(data)
 })
 
-app.listen(5000, () =>
-  console.log(`Server running in ${process.env.NODE_ENV} mode on port ${port}`)
-)
+app.listen(5000, () => console.log(`Server running on port 5000`))

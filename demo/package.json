@@ -1,0 +1,16 @@
+{
+  "name": "@jackabox/node-recipe-scraper-demo",
+  "version": "0.0.1",
+  "main": "demo.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server demo.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
