@@ -7,10 +7,6 @@ dotenv.config({ path: './.env' })
 
 const app = express()
 
-if (process.env.NODE_ENV === 'development') {
-  app.use(morgan('dev'))
-}
-
 // Set up the test route to quickly check that stuff is working.
 app.get('/v1/scraper', async (req, res) => {
   const { url } = req.query
@@ -18,8 +14,6 @@ app.get('/v1/scraper', async (req, res) => {
   return res.json(data)
 })
 
-const port = process.env.PORT || 8000
-
-app.listen(port, () =>
+app.listen(5000, () =>
   console.log(`Server running in ${process.env.NODE_ENV} mode on port ${port}`)
 )
