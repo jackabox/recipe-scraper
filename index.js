@@ -1,10 +1,12 @@
+const AllRecipesScraper = require('./scraper/AllRecipesScraper')
+const BBCGoodFoodScraper = require('./scraper/BBCGoodFoodScraper')
 const JamieOliverFoodScraper = require('./scraper/JamieOliverScraper')
 const PioneerWomanScraper = require('./scraper/PioneerWomanScraper')
-const BBCGoodFoodScraper = require('./scraper/BBCGoodFoodScraper')
 
 const allowedUrls = {
-  'jamieoliver.com': new JamieOliverFoodScraper(),
+  'allrecipes.com': new AllRecipesScraper(),
   'bbcgoodfood.com': new BBCGoodFoodScraper(),
+  'jamieoliver.com': new JamieOliverFoodScraper(),
   'thepioneerwoman.com': new PioneerWomanScraper()
 }
 

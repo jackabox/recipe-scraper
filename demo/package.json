@@ -4,7 +4,7 @@
   "main": "demo.js",
   "license": "MIT",
   "scripts": {
-    "start": "node server",
+    "start": "node demo.js",
     "server": "nodemon server demo.js"
   },
   "dependencies": {
